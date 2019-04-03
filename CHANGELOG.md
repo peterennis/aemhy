@@ -2,6 +2,47 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.17.0"></a>
+# [1.17.0](https://github.com/wintercounter/mhy/compare/v1.16.0...v1.17.0) (2019-04-02)
+
+
+### Features
+
+* **babel+node:** apply same alias resolving mechanism ([eb9adce](https://github.com/wintercounter/mhy/commit/eb9adce))
+
+
+
+<a name="1.16.0"></a>
+# [1.16.0](https://github.com/wintercounter/mhy/compare/v1.15.0...v1.16.0) (2019-04-02)
+
+
+### Features
+
+* **ts+webpack:** apply same alias resolving mechanism ([70e6dfd](https://github.com/wintercounter/mhy/commit/70e6dfd))
+* **webpack:** make alias resolve more reliable ([300e2de](https://github.com/wintercounter/mhy/commit/300e2de))
+
+
+
+<a name="1.15.0"></a>
+# [1.15.0](https://github.com/wintercounter/mhy/compare/v1.14.1...v1.15.0) (2019-04-02)
+
+
+### Features
+
+* **typescript:** make alias resolve more reliable ([944662d](https://github.com/wintercounter/mhy/commit/944662d))
+
+
+
+<a name="1.14.1"></a>
+## [1.14.1](https://github.com/wintercounter/mhy/compare/v1.14.0...v1.14.1) (2019-03-26)
+
+
+### Bug Fixes
+
+* **webpack-eslint:** only set options for prod if rule exists ([71f883e](https://github.com/wintercounter/mhy/commit/71f883e))
+
+
+
 <a name="1.14.0"></a>
 # [1.14.0](https://github.com/wintercounter/mhy/compare/v1.13.0...v1.14.0) (2019-03-25)
 

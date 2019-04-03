@@ -1,3 +1,4 @@
+import fs from 'fs'
 import path from 'path'
 
 import { loadConfig } from '@/utils'
@@ -22,11 +23,16 @@ const tsconfig = loadConfig('typescript', {
         baseUrl: path.resolve(process.cwd(), mhyConfig.srcFolder),
         skipLibCheck: true,
         paths: Object.entries(mhyConfig.defaultAliases).reduce(
-            function(acc, [k]) {
-                let folder = k.replace('@', ``)
-                folder = folder ? `${folder}/` : ''
-                acc[k] = [`${folder}index`]
-                acc[`${k}/*`] = [`${folder}*`]
+            function(acc, [k, p]) {
+                // It's already a path
+                if (!fs.existsSync(p)) {
+                    p = path.resolve(process.cwd(), p)
+                } else {
+                    // Make sure it's a resolved path indeed
+                    p = path.resolve(p)
+                }
+                acc[k] = [path.join(p, 'index')]
+                acc[`${k}/*`] = [path.join(p, '*')]
                 return acc
             },
             {
