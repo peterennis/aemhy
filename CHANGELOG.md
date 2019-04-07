@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.18.2"></a>
+## [1.18.2](https://github.com/wintercounter/mhy/compare/v1.18.1...v1.18.2) (2019-04-07)
+
+
+
+<a name="1.18.1"></a>
+## [1.18.1](https://github.com/wintercounter/mhy/compare/v1.18.0...v1.18.1) (2019-04-05)
+
+
+### Bug Fixes
+
+* **nodemon:** exec `mhy node` directly instead ([8f474a6](https://github.com/wintercounter/mhy/commit/8f474a6))
+
+
+
+<a name="1.18.0"></a>
+# [1.18.0](https://github.com/wintercounter/mhy/compare/v1.17.0...v1.18.0) (2019-04-05)
+
+
+### Features
+
+* **nodemon:** add support - new process ([ab07b06](https://github.com/wintercounter/mhy/commit/ab07b06))
+* **webpack:** extend `watchOptions.ignore` with additional patterns as an array ([560df50](https://github.com/wintercounter/mhy/commit/560df50))
+* **webpack-dev-server:** make `devServer.watchOptions` to inherit `webpack.watchOptions` ([1c4e801](https://github.com/wintercounter/mhy/commit/1c4e801))
+
+
+
 <a name="1.17.0"></a>
 # [1.17.0](https://github.com/wintercounter/mhy/compare/v1.16.0...v1.17.0) (2019-04-02)
 

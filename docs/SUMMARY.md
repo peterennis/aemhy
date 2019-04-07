@@ -21,6 +21,7 @@
   * [eslint](processes/eslint.md)
   * [jest](processes/jest.md)
   * [node](processes/node.md)
+  * [nodemon](processes/nodemon.md)
   * [prettier](processes/prettier.md)
   * [storybook-start](processes/storybook-start.md)
   * [storybook-build](processes/storybook-build.md)
@@ -53,6 +54,6 @@
 
 * [FAQ](others/faq.md)
 * [Help](others/help.md)
-* [Development](others/development.md)
+* [Development of mhy](others/development.md)
 * [Suggest a library](others/suggest.md)
 
