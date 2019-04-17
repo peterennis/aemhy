@@ -2,6 +2,65 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.21.2"></a>
+## [1.21.2](https://github.com/wintercounter/mhy/compare/v1.21.1...v1.21.2) (2019-04-16)
+
+
+
+<a name="1.21.1"></a>
+## [1.21.1](https://github.com/wintercounter/mhy/compare/v1.21.0...v1.21.1) (2019-04-12)
+
+
+### Bug Fixes
+
+* **docker:** add missing python ([b11a4b3](https://github.com/wintercounter/mhy/commit/b11a4b3))
+
+
+
+<a name="1.21.0"></a>
+# [1.21.0](https://github.com/wintercounter/mhy/compare/v1.20.0...v1.21.0) (2019-04-12)
+
+
+### Bug Fixes
+
+* **webpack/eslint:** wrong value placement ([0bff53e](https://github.com/wintercounter/mhy/commit/0bff53e))
+
+
+### Features
+
+* **docker:** use latest node version with slim image ([9fd0e26](https://github.com/wintercounter/mhy/commit/9fd0e26))
+
+
+
+<a name="1.20.0"></a>
+# [1.20.0](https://github.com/wintercounter/mhy/compare/v1.19.0...v1.20.0) (2019-04-12)
+
+
+### Features
+
+* **typescript:** extend declarations for more non-js module types ([fbe4459](https://github.com/wintercounter/mhy/commit/fbe4459))
+
+
+
+<a name="1.19.0"></a>
+# [1.19.0](https://github.com/wintercounter/mhy/compare/v1.18.3...v1.19.0) (2019-04-12)
+
+
+### Features
+
+* **ignore:** add `.tsbuildinfo` ([a8b6166](https://github.com/wintercounter/mhy/commit/a8b6166))
+* **ignore:** ignore should not run only for / ([742f0f1](https://github.com/wintercounter/mhy/commit/742f0f1))
+* **typescript:** enable incremental caching to speed up cold runs ([f81d844](https://github.com/wintercounter/mhy/commit/f81d844))
+* **webpack:** use `raw-loader` for files with `*.raw.*` name ([a2b074c](https://github.com/wintercounter/mhy/commit/a2b074c))
+* **webpack/eslint:** enable caching for faster first build ([9ec96a5](https://github.com/wintercounter/mhy/commit/9ec96a5))
+
+
+
+<a name="1.18.3"></a>
+## [1.18.3](https://github.com/wintercounter/mhy/compare/v1.18.2...v1.18.3) (2019-04-10)
+
+
+
 <a name="1.18.2"></a>
 ## [1.18.2](https://github.com/wintercounter/mhy/compare/v1.18.1...v1.18.2) (2019-04-07)
 
