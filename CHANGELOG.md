@@ -2,6 +2,51 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.24.0](https://github.com/wintercounter/mhy/compare/v1.23.3...v1.24.0) (2019-06-20)
+
+
+### Features
+
+* **graphql:** add new toys 20/06/19 ([d161603](https://github.com/wintercounter/mhy/commit/d161603))
+
+
+
+### [1.23.3](https://github.com/wintercounter/mhy/compare/v1.23.2...v1.23.3) (2019-06-20)
+
+
+
+### [1.23.2](https://github.com/wintercounter/mhy/compare/v1.23.1...v1.23.2) (2019-06-20)
+
+
+
+### [1.23.1](https://github.com/wintercounter/mhy/compare/v1.23.0...v1.23.1) (2019-06-19)
+
+
+### Bug Fixes
+
+* **css-loader:** not exporting both style of CSS variable names ([d09042a](https://github.com/wintercounter/mhy/commit/d09042a))
+
+
+
+## [1.23.0](https://github.com/wintercounter/mhy/compare/v1.22.12...v1.23.0) (2019-06-19)
+
+
+### Features
+
+* **dependency:** add `cookie` package ([506fe73](https://github.com/wintercounter/mhy/commit/506fe73))
+
+
+
+### [1.22.12](https://github.com/wintercounter/mhy/compare/v1.22.10...v1.22.12) (2019-06-19)
+
+
+### Bug Fixes
+
+* **docker:** failing install ([f2b8866](https://github.com/wintercounter/mhy/commit/f2b8866))
+* **docker:** failing install ([36dc06c](https://github.com/wintercounter/mhy/commit/36dc06c))
+
+
+
 ### [1.22.10](https://github.com/wintercounter/mhy/compare/v1.22.9...v1.22.10) (2019-06-18)
 
 
