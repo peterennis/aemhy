@@ -1,9 +1,9 @@
-export default () => ({
-    vendor: [
-        require.resolve('formdata-polyfill'),
-        require.resolve('babel-polyfill'),
-        require.resolve('whatwg-fetch'),
-        require.resolve('url-search-params-polyfill')
-    ],
-    app: ['./src']
-})
+export default () => {
+    const returnValue = {
+        app: ['./src']
+    }
+    if (process.env.WEBPACK_DEV_SERVER) {
+        returnValue.app = [require.resolve('react-hot-loader/patch'), ...returnValue.app]
+    }
+    return returnValue
+}

@@ -2,6 +2,61 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/wintercounter/mhy/compare/v2.1.2...v2.1.3) (2019-07-10)
+
+
+### Bug Fixes
+
+* unfreeze react-hot-loader version ([456f2f2](https://github.com/wintercounter/mhy/commit/456f2f2))
+
+
+
+### [2.1.2](https://github.com/wintercounter/mhy/compare/v2.1.1...v2.1.2) (2019-07-10)
+
+
+### Bug Fixes
+
+* freeze react-hot-loader version temporarily ([4a37e08](https://github.com/wintercounter/mhy/commit/4a37e08))
+
+
+
+### [2.1.1](https://github.com/wintercounter/mhy/compare/v2.1.0...v2.1.1) (2019-07-10)
+
+
+
+## [2.1.0](https://github.com/wintercounter/mhy/compare/v2.0.0...v2.1.0) (2019-07-09)
+
+
+### Features
+
+* **hmr:** make hmr available also in prod mode ([5b1d37a](https://github.com/wintercounter/mhy/commit/5b1d37a))
+
+
+
+## [2.0.0](https://github.com/wintercounter/mhy/compare/v1.24.0...v2.0.0) (2019-07-09)
+
+
+### Bug Fixes
+
+* **eslint:** revert back to 5.0 temporarily ([e4dba1e](https://github.com/wintercounter/mhy/commit/e4dba1e))
+* handle multiple `src` folder in path correctly ([a039c66](https://github.com/wintercounter/mhy/commit/a039c66))
+
+
+### Features
+
+* **eslint:** update to latest ([35bccb7](https://github.com/wintercounter/mhy/commit/35bccb7))
+* **wds:** add progress display ([fd3fac2](https://github.com/wintercounter/mhy/commit/fd3fac2))
+* drop IE11 support ([1eda464](https://github.com/wintercounter/mhy/commit/1eda464))
+
+
+### BREAKING CHANGES
+
+* - Removed `vendor.js` generation form Webpack. This also removes URLSearchParams, Fetch and FormData polyfills.
+- Removed `babel-polyfill` completely as it's deprecated. Please include the necessary polyfills on your own from `core-js`.
+- Removed `@babel/plugin-transform-regenerator`, native async/await is supported. Add back manually in case you need it.
+
+
+
 ## [1.24.0](https://github.com/wintercounter/mhy/compare/v1.23.3...v1.24.0) (2019-06-20)
 
 
