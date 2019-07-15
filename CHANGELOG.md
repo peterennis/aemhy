@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.3](https://github.com/wintercounter/mhy/compare/v2.2.2...v2.2.3) (2019-07-12)
+
+
+### Bug Fixes
+
+* **storybook:** reference error ([5bbbd1c](https://github.com/wintercounter/mhy/commit/5bbbd1c))
+
+
+
+### [2.2.2](https://github.com/wintercounter/mhy/compare/v2.2.1...v2.2.2) (2019-07-12)
+
+
+### Bug Fixes
+
+* **storybook:** transpile css from the outside as well ([85cc1a9](https://github.com/wintercounter/mhy/commit/85cc1a9))
+
+
+
+### [2.2.1](https://github.com/wintercounter/mhy/compare/v2.2.0...v2.2.1) (2019-07-12)
+
+
+### Bug Fixes
+
+* **storybook:** only remove eslint rules if found ([8bbfcff](https://github.com/wintercounter/mhy/commit/8bbfcff))
+
+
+
+## [2.2.0](https://github.com/wintercounter/mhy/compare/v2.1.3...v2.2.0) (2019-07-11)
+
+
+### Features
+
+* **storybook:** general improvements ([2b842df](https://github.com/wintercounter/mhy/commit/2b842df))
+
+
+
 ### [2.1.3](https://github.com/wintercounter/mhy/compare/v2.1.2...v2.1.3) (2019-07-10)
 
 
