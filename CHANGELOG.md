@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/wintercounter/mhy/compare/v2.3.0...v2.4.0) (2019-07-23)
+
+
+### Features
+
+* **webpack:** add .mjs support from loaders ([d32ec91](https://github.com/wintercounter/mhy/commit/d32ec91))
+
+
+
+## [2.3.0](https://github.com/wintercounter/mhy/compare/v2.2.5...v2.3.0) (2019-07-22)
+
+
+### Features
+
+* **babel:** make babel process available as root ([78225ca](https://github.com/wintercounter/mhy/commit/78225ca))
+
+
+
+### [2.2.5](https://github.com/wintercounter/mhy/compare/v2.2.4...v2.2.5) (2019-07-22)
+
+
+### Bug Fixes
+
+* **template/express/default-ts:** correct structure ([49bfed8](https://github.com/wintercounter/mhy/commit/49bfed8))
+* **template/react/default-ts:** correct structure ([38d850f](https://github.com/wintercounter/mhy/commit/38d850f))
+
+
+
 ### [2.2.4](https://github.com/wintercounter/mhy/compare/v2.2.3...v2.2.4) (2019-07-15)
 
 
