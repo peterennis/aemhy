@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.8.0](https://github.com/wintercounter/mhy/compare/v2.7.1...v2.8.0) (2019-08-07)
+
+
+### Features
+
+* **tsc:** add support for auto path (alias) replacement for generated files ([534b093](https://github.com/wintercounter/mhy/commit/534b093))
+
+### [2.7.1](https://github.com/wintercounter/mhy/compare/v2.7.0...v2.7.1) (2019-08-07)
+
+## [2.7.0](https://github.com/wintercounter/mhy/compare/v2.6.2...v2.7.0) (2019-08-06)
+
+
+### Features
+
+* add `apollo-link-state` ([e1377a1](https://github.com/wintercounter/mhy/commit/e1377a1))
+
+### [2.6.2](https://github.com/wintercounter/mhy/compare/v2.6.1...v2.6.2) (2019-08-06)
+
+
+### Bug Fixes
+
+* **babel:** copy filter ([53d3e11](https://github.com/wintercounter/mhy/commit/53d3e11))
+
 ### [2.6.1](https://github.com/wintercounter/mhy/compare/v2.6.0...v2.6.1) (2019-07-31)
 
 
