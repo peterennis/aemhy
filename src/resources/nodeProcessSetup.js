@@ -13,8 +13,6 @@ babelConfig.presets.find(p => p[0].includes('preset-env'))[1] = {
         esmodules: true
     }
 }
-const regeneratorIndex = babelConfig.plugins.findIndex(p => p.includes && p.includes('regenerator'))
-babelConfig.plugins.splice(regeneratorIndex, 1)
 babelConfig.extensions = ['.es6', '.es', '.jsx', '.js', '.mjs', '.ts', '.tsx']
 babelConfig.cache = false
 
@@ -38,5 +36,8 @@ const scriptIndex = process.argv.findIndex(v => v.includes(scriptKey))
 const scriptValue = process.argv[scriptIndex]
 const src =
     scriptValue.length === scriptKey.length ? process.argv[scriptIndex + 1] : scriptValue.replace(`${scriptKey}=`, '')
+
+// Remove them
+process.argv.splice(scriptIndex, 2)
 
 require(path.resolve(process.cwd(), src))
