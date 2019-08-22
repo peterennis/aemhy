@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.13.0](https://github.com/wintercounter/mhy/compare/v2.12.0...v2.13.0) (2019-08-22)
+
+
+### Bug Fixes
+
+* **dep:** handle the case when `dependencies` does not exists in `package.json` ([d26fafb](https://github.com/wintercounter/mhy/commit/d26fafb))
+
+
+### Features
+
+* **dep:** add `deps` alias ([5572492](https://github.com/wintercounter/mhy/commit/5572492))
+
+## [2.12.0](https://github.com/wintercounter/mhy/compare/v2.11.1...v2.12.0) (2019-08-21)
+
+
+### Features
+
+* **dep:** introduce new dependency management tool ([b7b54fd](https://github.com/wintercounter/mhy/commit/b7b54fd))
+
 ### [2.11.1](https://github.com/wintercounter/mhy/compare/v2.11.0...v2.11.1) (2019-08-20)
 
 
