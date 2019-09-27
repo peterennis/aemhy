@@ -2,6 +2,48 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.15.4](https://github.com/wintercounter/mhy/compare/v2.15.3...v2.15.4) (2019-09-16)
+
+
+### Bug Fixes
+
+* **babel-plugin-macros:** use temporary custom fork until issues get fixed ([a5d820b](https://github.com/wintercounter/mhy/commit/a5d820b))
+
+### [2.15.3](https://github.com/wintercounter/mhy/compare/v2.15.2...v2.15.3) (2019-09-16)
+
+
+### Bug Fixes
+
+* wrong css loader option key on prod builds ([ad589d0](https://github.com/wintercounter/mhy/commit/ad589d0))
+
+### [2.15.2](https://github.com/wintercounter/mhy/compare/v2.15.1...v2.15.2) (2019-09-12)
+
+
+### Bug Fixes
+
+* **s-c:** update jest tool ([14737de](https://github.com/wintercounter/mhy/commit/14737de))
+
+### [2.15.1](https://github.com/wintercounter/mhy/compare/v2.15.0...v2.15.1) (2019-09-11)
+
+
+### Bug Fixes
+
+* **sass-loader:** move `sourceMap` option to the correct place ([a40388d](https://github.com/wintercounter/mhy/commit/a40388d))
+
+## [2.15.0](https://github.com/wintercounter/mhy/compare/v2.14.0...v2.15.0) (2019-09-11)
+
+
+### Bug Fixes
+
+* **--mhy-if:** empty command should not run ([31f8300](https://github.com/wintercounter/mhy/commit/31f8300))
+* **babel-plugin-macro:** only apply patch if it wasn't patched before ([783f7af](https://github.com/wintercounter/mhy/commit/783f7af))
+
+
+### Features
+
+* `--mhy-if` flag ([e12a4cd](https://github.com/wintercounter/mhy/commit/e12a4cd))
+* add support for secondary environments ([25bf828](https://github.com/wintercounter/mhy/commit/25bf828))
+
 ## [2.14.0](https://github.com/wintercounter/mhy/compare/v2.13.0...v2.14.0) (2019-08-23)
 
 
