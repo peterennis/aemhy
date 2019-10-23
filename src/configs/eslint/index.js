@@ -15,7 +15,8 @@ const defaults = {
             jsx: true
         },
         ecmaVersion: 2018,
-        sourceType: 'module'
+        sourceType: 'module',
+        warnOnUnsupportedTypeScriptVersion: false
     },
     parser: 'babel-eslint',
     plugins: ['react', 'react-hooks', 'jest'],
@@ -33,6 +34,13 @@ const defaults = {
         'jsx-a11y/click-events-have-key-events': 0,
         'jsx-a11y/no-noninteractive-element-interactions': 0,
         'jsx-a11y/no-static-element-interactions': 0,
+        'jsx-a11y/anchor-is-valid': [
+            'error',
+            {
+                // People not necessarily use react-router
+                components: []
+            }
+        ],
 
         'jest/no-disabled-tests': 'warn',
         'jest/no-focused-tests': 'error',
@@ -216,7 +224,7 @@ const defaults = {
 const tsconfigPath = path.resolve(process.cwd(), 'tsconfig.json')
 if (fs.existsSync(tsconfigPath)) {
     defaults.parser = require.resolve('@typescript-eslint/parser')
-    defaults.parserOptions.project = tsconfigPath
+    defaults.parserOptions.projects = [tsconfigPath]
     defaults.plugins.push('@typescript-eslint')
     defaults.extends.push('plugin:@typescript-eslint/recommended')
     defaults.extends.push(require.resolve('eslint-config-prettier/@typescript-eslint'))
@@ -226,6 +234,7 @@ if (fs.existsSync(tsconfigPath)) {
         // Extras
         '@typescript-eslint/interface-name-prefix': [1, 'always'],
         '@typescript-eslint/explicit-function-return-type': 0,
+        '@typescript-eslint/ban-ts-ignore': 0,
         'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
 
         // Conflicting
