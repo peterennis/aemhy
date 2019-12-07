@@ -5,7 +5,7 @@ export default (defaults = []) => [
         {
             targets: {
                 chrome: 78,
-                edge: 18,
+                edge: 15,
                 esmodules: false
             },
             modules: false
