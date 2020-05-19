@@ -32,6 +32,7 @@ const defaults = {
         }
     },
     rules: {
+        'react/jsx-pascal-case': 0,
         'jsx-a11y/media-has-caption': 0,
         'jsx-a11y/click-events-have-key-events': 0,
         'jsx-a11y/no-noninteractive-element-interactions': 0,
@@ -53,7 +54,7 @@ const defaults = {
         'react/jsx-uses-vars': 'error',
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
-        'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
+        'react/jsx-filename-extension': [1, { extensions: ['.jsx'] }],
         'react/no-did-update-set-state': 0,
         'react/forbid-foreign-prop-types': 0,
         'react-hooks/rules-of-hooks': 'error',
